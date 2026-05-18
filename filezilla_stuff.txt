@@ -1,0 +1,10 @@
+login:
+daniel@m29media.se
+password:
+upcc6EDSFNScyu9qyPhw
+path:
+/home/s148725/domains/narvaro.m29media.se
+host:
+185.189.49.45
+port:
+21

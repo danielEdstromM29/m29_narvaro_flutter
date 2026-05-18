@@ -1,0 +1,10 @@
+superuser: 
+daniel@gmail.com
+
+password:
+kyuyva8t28q7fyrcFxcxtjxe
+
+test_user:
+test@google.com
+password:
+test1234
