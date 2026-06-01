@@ -13,5 +13,23 @@ class Pb {
     }
     return message;
   }
+
+  Future<bool> login(String username, String password) async {
+    try {
+      await pb.collection('users').authWithPassword(username, password);
+      return true;
+    } catch (e) {
+      return false;
+    }
+  }
+
+  void logout() {
+    pb.authStore.clear();
+  }
+
+  bool isLoggedIn() {
+    return pb.authStore.isValid;
+  }
+
 }
 
